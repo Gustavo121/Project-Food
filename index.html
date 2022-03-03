@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete Responsive Food Website Design Tutorial</title>
 
-    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <!-- custom css file link -->
+    <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
     
-<!-- header section starts -->
+<!-- header section starts      -->
 
 <header>
 
@@ -30,7 +31,7 @@
         <a href="#review">review</a>
         <a href="#order">order</a>
     </nav>
-    
+
     <div class="icons">
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
@@ -40,9 +41,9 @@
 
 </header>
 
-<!-- header section ends -->
+<!-- header section ends-->
 
-<!-- search form -->
+<!-- search form  -->
 
 <form action="" id="search-form">
     <input type="search" placeholder="search here..." name="" id="search-box">
@@ -50,44 +51,44 @@
     <i class="fas fa-times" id="close"></i>
 </form>
 
-<!-- home section starts -->
+<!-- home section starts  -->
 
 <section class="home" id="home">
 
-    <div class="home-slider">
+    <div class="swiper-container home-slider">
 
-        <div class="wrapper">
+        <div class="swiper-wrapper wrapper">
 
-            <div class="slide">
+            <div class="swiper-slide slide">
                 <div class="content">
                     <span>our special dish</span>
                     <h3>spicy noodles</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam quia harum facilis!</p>
-                    <a href="#" class="btn"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
                 </div>
                 <div class="image">
                     <img src="images/home-img-1.png" alt="">
                 </div>
             </div>
 
-            <div class="slide">
+            <div class="swiper-slide slide">
                 <div class="content">
                     <span>our special dish</span>
                     <h3>fried chicken</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam quia harum facilis!</p>
-                    <a href="#" class="btn"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
                 </div>
                 <div class="image">
                     <img src="images/home-img-2.png" alt="">
                 </div>
             </div>
 
-            <div class="slide">
+            <div class="swiper-slide slide">
                 <div class="content">
                     <span>our special dish</span>
                     <h3>hot pizza</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam quia harum facilis!</p>
-                    <a href="#" class="btn"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
                 </div>
                 <div class="image">
                     <img src="images/home-img-3.png" alt="">
@@ -95,6 +96,8 @@
             </div>
 
         </div>
+
+        <div class="swiper-pagination"></div>
 
     </div>
 
@@ -133,7 +136,7 @@
 
 
 
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- custom js file link -->
     <script src="js/script.js"></script>
